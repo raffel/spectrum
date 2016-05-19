@@ -75,7 +75,7 @@
     replaceInput = [
         "<div class='sp-replacer'>",
             "<div class='sp-preview'><div class='sp-preview-inner'></div></div>",
-            "<div class='sp-dd'>&#9660;</div>",
+            "<div class='sp-dd'><i class='dropdown icon'></i></div>",
         "</div>"
     ].join(''),
     markup = (function () {
@@ -117,13 +117,13 @@
                         "</div>",
                         "<div class='sp-alpha'><div class='sp-alpha-inner'><div class='sp-alpha-handle'></div></div></div>",
                     "</div>",
-                    "<div class='sp-input-container sp-cf'>",
+                    "<div class='sp-input-container sp-cf ui mini input'>",
                         "<input class='sp-input' type='text' spellcheck='false'  />",
                     "</div>",
                     "<div class='sp-initial sp-thumb sp-cf'></div>",
                     "<div class='sp-button-container sp-cf'>",
-                        "<a class='sp-cancel' href='#'></a>",
-                        "<button type='button' class='sp-choose'></button>",
+                        "<button type='button' class='sp-cancel ui mini black button'></button>",
+                        "<button type='button' class='sp-choose ui mini positive button'></button>",
                     "</div>",
                 "</div>",
             "</div>"
